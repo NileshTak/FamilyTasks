@@ -13,7 +13,6 @@ android {
         targetSdkVersion 30
         versionCode 1
         versionName "1.0"
-//      Need to animation
         multiDexEnabled true
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -46,9 +45,12 @@ dependencies {
     implementation 'com.google.firebase:firebase-analytics:17.2.0'
     implementation 'com.google.firebase:firebase-config:17.0.0'
 
+    //Google Signin
+    implementation 'com.google.android.gms:play-services-auth:16.0.1'
 
     //Lottiee animation
     implementation 'com.airbnb.android:lottie:3.0.7'
+
     implementation 'com.android.support:multidex:1.0.3'
 
 }
